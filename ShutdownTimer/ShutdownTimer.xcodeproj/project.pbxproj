@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EDA497D1DEE199F00807945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA497C1DEE199F00807945 /* AppDelegate.swift */; };
+		4EDA497F1DEE199F00807945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA497E1DEE199F00807945 /* Assets.xcassets */; };
+		4EDA49821DEE199F00807945 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDA49801DEE199F00807945 /* MainMenu.xib */; };
+		4EDA498D1DEE199F00807945 /* ShutdownTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA498C1DEE199F00807945 /* ShutdownTimerTests.swift */; };
+		4EDA49981DEE199F00807945 /* ShutdownTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA49971DEE199F00807945 /* ShutdownTimerUITests.swift */; };
+		4EDA49A61DEE1FC000807945 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA49A51DEE1FC000807945 /* StatusMenuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EDA49891DEE199F00807945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EDA49711DEE199F00807945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EDA49781DEE199F00807945;
+			remoteInfo = ShutdownTimer;
+		};
+		4EDA49941DEE199F00807945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EDA49711DEE199F00807945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EDA49781DEE199F00807945;
+			remoteInfo = ShutdownTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EDA49791DEE199F00807945 /* ShutdownTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShutdownTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDA497C1DEE199F00807945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EDA497E1DEE199F00807945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EDA49811DEE199F00807945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4EDA49831DEE199F00807945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDA49881DEE199F00807945 /* ShutdownTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutdownTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDA498C1DEE199F00807945 /* ShutdownTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutdownTimerTests.swift; sourceTree = "<group>"; };
+		4EDA498E1DEE199F00807945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDA49931DEE199F00807945 /* ShutdownTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutdownTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDA49971DEE199F00807945 /* ShutdownTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutdownTimerUITests.swift; sourceTree = "<group>"; };
+		4EDA49991DEE199F00807945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDA49A51DEE1FC000807945 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EDA49761DEE199F00807945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDA49851DEE199F00807945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDA49901DEE199F00807945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EDA49701DEE199F00807945 = {
+			isa = PBXGroup;
+			children = (
+				4EDA49A51DEE1FC000807945 /* StatusMenuController.swift */,
+				4EDA497B1DEE199F00807945 /* ShutdownTimer */,
+				4EDA498B1DEE199F00807945 /* ShutdownTimerTests */,
+				4EDA49961DEE199F00807945 /* ShutdownTimerUITests */,
+				4EDA497A1DEE199F00807945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EDA497A1DEE199F00807945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EDA49791DEE199F00807945 /* ShutdownTimer.app */,
+				4EDA49881DEE199F00807945 /* ShutdownTimerTests.xctest */,
+				4EDA49931DEE199F00807945 /* ShutdownTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EDA497B1DEE199F00807945 /* ShutdownTimer */ = {
+			isa = PBXGroup;
+			children = (
+				4EDA497C1DEE199F00807945 /* AppDelegate.swift */,
+				4EDA497E1DEE199F00807945 /* Assets.xcassets */,
+				4EDA49801DEE199F00807945 /* MainMenu.xib */,
+				4EDA49831DEE199F00807945 /* Info.plist */,
+			);
+			path = ShutdownTimer;
+			sourceTree = "<group>";
+		};
+		4EDA498B1DEE199F00807945 /* ShutdownTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EDA498C1DEE199F00807945 /* ShutdownTimerTests.swift */,
+				4EDA498E1DEE199F00807945 /* Info.plist */,
+			);
+			path = ShutdownTimerTests;
+			sourceTree = "<group>";
+		};
+		4EDA49961DEE199F00807945 /* ShutdownTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EDA49971DEE199F00807945 /* ShutdownTimerUITests.swift */,
+				4EDA49991DEE199F00807945 /* Info.plist */,
+			);
+			path = ShutdownTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EDA49781DEE199F00807945 /* ShutdownTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDA499C1DEE199F00807945 /* Build configuration list for PBXNativeTarget "ShutdownTimer" */;
+			buildPhases = (
+				4EDA49751DEE199F00807945 /* Sources */,
+				4EDA49761DEE199F00807945 /* Frameworks */,
+				4EDA49771DEE199F00807945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShutdownTimer;
+			productName = ShutdownTimer;
+			productReference = 4EDA49791DEE199F00807945 /* ShutdownTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EDA49871DEE199F00807945 /* ShutdownTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDA499F1DEE199F00807945 /* Build configuration list for PBXNativeTarget "ShutdownTimerTests" */;
+			buildPhases = (
+				4EDA49841DEE199F00807945 /* Sources */,
+				4EDA49851DEE199F00807945 /* Frameworks */,
+				4EDA49861DEE199F00807945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDA498A1DEE199F00807945 /* PBXTargetDependency */,
+			);
+			name = ShutdownTimerTests;
+			productName = ShutdownTimerTests;
+			productReference = 4EDA49881DEE199F00807945 /* ShutdownTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EDA49921DEE199F00807945 /* ShutdownTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDA49A21DEE199F00807945 /* Build configuration list for PBXNativeTarget "ShutdownTimerUITests" */;
+			buildPhases = (
+				4EDA498F1DEE199F00807945 /* Sources */,
+				4EDA49901DEE199F00807945 /* Frameworks */,
+				4EDA49911DEE199F00807945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDA49951DEE199F00807945 /* PBXTargetDependency */,
+			);
+			name = ShutdownTimerUITests;
+			productName = ShutdownTimerUITests;
+			productReference = 4EDA49931DEE199F00807945 /* ShutdownTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EDA49711DEE199F00807945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DavidB;
+				TargetAttributes = {
+					4EDA49781DEE199F00807945 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4EDA49871DEE199F00807945 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EDA49781DEE199F00807945;
+					};
+					4EDA49921DEE199F00807945 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4EDA49781DEE199F00807945;
+					};
+				};
+			};
+			buildConfigurationList = 4EDA49741DEE199F00807945 /* Build configuration list for PBXProject "ShutdownTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EDA49701DEE199F00807945;
+			productRefGroup = 4EDA497A1DEE199F00807945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EDA49781DEE199F00807945 /* ShutdownTimer */,
+				4EDA49871DEE199F00807945 /* ShutdownTimerTests */,
+				4EDA49921DEE199F00807945 /* ShutdownTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EDA49771DEE199F00807945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDA497F1DEE199F00807945 /* Assets.xcassets in Resources */,
+				4EDA49821DEE199F00807945 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDA49861DEE199F00807945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDA49911DEE199F00807945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EDA49751DEE199F00807945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDA49A61DEE1FC000807945 /* StatusMenuController.swift in Sources */,
+				4EDA497D1DEE199F00807945 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDA49841DEE199F00807945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDA498D1DEE199F00807945 /* ShutdownTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDA498F1DEE199F00807945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDA49981DEE199F00807945 /* ShutdownTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EDA498A1DEE199F00807945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EDA49781DEE199F00807945 /* ShutdownTimer */;
+			targetProxy = 4EDA49891DEE199F00807945 /* PBXContainerItemProxy */;
+		};
+		4EDA49951DEE199F00807945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EDA49781DEE199F00807945 /* ShutdownTimer */;
+			targetProxy = 4EDA49941DEE199F00807945 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EDA49801DEE199F00807945 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDA49811DEE199F00807945 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EDA499A1DEE199F00807945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EDA499B1DEE199F00807945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4EDA499D1DEE199F00807945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShutdownTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.david.ShutdownTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4EDA499E1DEE199F00807945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShutdownTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.david.ShutdownTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4EDA49A01DEE199F00807945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShutdownTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.david.ShutdownTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShutdownTimer.app/Contents/MacOS/ShutdownTimer";
+			};
+			name = Debug;
+		};
+		4EDA49A11DEE199F00807945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShutdownTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.david.ShutdownTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShutdownTimer.app/Contents/MacOS/ShutdownTimer";
+			};
+			name = Release;
+		};
+		4EDA49A31DEE199F00807945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShutdownTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.david.ShutdownTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShutdownTimer;
+			};
+			name = Debug;
+		};
+		4EDA49A41DEE199F00807945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShutdownTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.david.ShutdownTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShutdownTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EDA49741DEE199F00807945 /* Build configuration list for PBXProject "ShutdownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDA499A1DEE199F00807945 /* Debug */,
+				4EDA499B1DEE199F00807945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDA499C1DEE199F00807945 /* Build configuration list for PBXNativeTarget "ShutdownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDA499D1DEE199F00807945 /* Debug */,
+				4EDA499E1DEE199F00807945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EDA499F1DEE199F00807945 /* Build configuration list for PBXNativeTarget "ShutdownTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDA49A01DEE199F00807945 /* Debug */,
+				4EDA49A11DEE199F00807945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EDA49A21DEE199F00807945 /* Build configuration list for PBXNativeTarget "ShutdownTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDA49A31DEE199F00807945 /* Debug */,
+				4EDA49A41DEE199F00807945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EDA49711DEE199F00807945 /* Project object */;
+}

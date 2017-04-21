@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ShutdownTimer" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="Znu-0k-Par" userLabel="StatusMenuController" customClass="StatusMenuController" customModule="ShutdownTimer" customModuleProvider="target">
+            <connections>
+                <outlet property="actionSelectMenu" destination="W72-Pl-gb2" id="zN3-ya-9d6"/>
+                <outlet property="statusMenu" destination="gVB-zB-Jyu" id="Ftw-oo-KHv"/>
+                <outlet property="timerLable" destination="6FE-Ze-CwM" id="Z4u-dL-SAz"/>
+                <outlet property="timerMenu" destination="4IC-zj-HzW" id="k6n-2a-aEh"/>
+                <outlet property="timerMenuButton" destination="2Cj-Fu-5Os" id="9FX-Vh-uhu"/>
+            </connections>
+        </customObject>
+        <menu id="gVB-zB-Jyu">
+            <items>
+                <menuItem title="00:01:00" id="6FE-Ze-CwM">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Start Timer" id="2Cj-Fu-5Os">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="startTimer:" target="Znu-0k-Par" id="15w-OC-cej"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Timer Interval" id="LUA-UL-RVL">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Timer Interval" id="4IC-zj-HzW">
+                        <items>
+                            <menuItem title="1 minute" state="on" id="YJW-Wi-aAm">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="oneMinute:" target="Znu-0k-Par" id="Agv-OC-lq4"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="3 minutes" id="bie-7y-L4i">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="threeMinutes:" target="Znu-0k-Par" id="X4v-M8-Tva"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="5 minutes" id="1U2-RY-yB4">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="fiveMinutes:" target="Znu-0k-Par" id="q9w-BS-wNn"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="10 minutes" id="ckk-xC-t7g">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="tenMinutes:" target="Znu-0k-Par" id="ny9-Mq-8s5"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="15 minutes" id="5Gd-uV-eRJ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="fifteenMinutes:" target="Znu-0k-Par" id="1Vz-q2-dNJ"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="30 minutes" id="Dm5-eC-IvV">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="thirtyMinutes:" target="Znu-0k-Par" id="wEl-71-Npo"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="1 hour" id="GwR-uX-vBH">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="oneHour:" target="Znu-0k-Par" id="ppD-UV-7hF"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Action" id="TBs-69-GwR">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Action" id="W72-Pl-gb2">
+                        <items>
+                            <menuItem title="Sleep" id="Rau-mL-OwG">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="setSleepAsAction:" target="Znu-0k-Par" id="Ihf-LD-FfX"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Shutdown" state="on" id="hgW-oG-MNp">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="setShutdownAsAction:" target="Znu-0k-Par" id="5C8-Me-EO9"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Restart" id="vGK-5Y-4vo">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="setRestartAsAction:" target="Znu-0k-Par" id="xUB-2u-SO7"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="txt-LY-0qC"/>
+                <menuItem title="About" id="TVY-aG-Wdp">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="about:" target="Znu-0k-Par" id="eLq-Hq-f68"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="0VX-0f-5ho"/>
+                <menuItem title="Quit" id="whu-zk-IRT">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="Znu-0k-Par" id="0NN-N1-rad"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="170" y="136"/>
+        </menu>
+    </objects>
+</document>
